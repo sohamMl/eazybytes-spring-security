@@ -8,6 +8,9 @@ import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.password.HaveIBeenPwnedRestApiPasswordChecker;
+import org.springframework.security.authentication.ReactiveAuthenticationManager;
+import org.springframework.security.authentication.UserDetailsRepositoryReactiveAuthenticationManager;
+import org.springframework.security.core.userdetails.ReactiveUserDetailsService;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 
 import static org.springframework.security.config.Customizer.withDefaults;
@@ -36,6 +39,21 @@ public class ProjectSecurityConfig {
                 .formLogin(withDefaults())
                 .httpBasic(withDefaults());
         return http.build();
+    }
+
+    /**
+     * Explicitly defining the ReactiveAuthenticationManager to resolve a known issue in Spring Security WebFlux
+     * where auto-configuration might fail with 'userDetailsPasswordService cannot be null'.
+     * By manually creating this bean, we ensure the authentication manager is correctly initialized
+     * with our custom UserDetailsService and PasswordEncoder.
+     */
+    @Bean
+    public ReactiveAuthenticationManager authenticationManager(ReactiveUserDetailsService userDetailsService,
+                                                               PasswordEncoder passwordEncoder) {
+        UserDetailsRepositoryReactiveAuthenticationManager authenticationManager =
+                new UserDetailsRepositoryReactiveAuthenticationManager(userDetailsService);
+        authenticationManager.setPasswordEncoder(passwordEncoder);
+        return authenticationManager;
     }
 
     @Bean
