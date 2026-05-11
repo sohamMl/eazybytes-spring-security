@@ -29,10 +29,10 @@ public class ProjectSecurityConfig {
     }
 
     @Bean
-    public UserDetailsService userDetailsService() {
+    public UserDetailsService userDetailsService(PasswordEncoder passwordEncoder) {
         UserDetails user = User.withUsername("user").password("{noop}EazyBytes@12345").authorities("read").build();
         UserDetails admin = User.withUsername("admin")
-                            .password("{bcrypt}$2a$12$88.f6upbBvy0okEa7OfHFuorV29qeK.sVbB9VQ6J6dWM1bW6Qef8m")
+                            .password(passwordEncoder.encode("EazyBytes@Admin#2024"))
                             .authorities("admin").build();
         return new InMemoryUserDetailsManager(user, admin);
     }
