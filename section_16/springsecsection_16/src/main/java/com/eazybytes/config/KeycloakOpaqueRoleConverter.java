@@ -9,8 +9,6 @@ import org.springframework.security.oauth2.server.resource.introspection.OpaqueT
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 public class KeycloakOpaqueRoleConverter implements OpaqueTokenAuthenticationConverter {

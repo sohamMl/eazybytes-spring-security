@@ -18,7 +18,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/welcome",
+							"raw": "{{base_url}}/welcome",
 							"path": [
 								"welcome"
 							]
@@ -77,7 +77,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount",
+							"raw": "{{base_url}}/myAccount",
 							"path": [
 								"myAccount"
 							]
@@ -106,7 +106,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance",
+							"raw": "{{base_url}}/myBalance",
 							"path": [
 								"myBalance"
 							]
@@ -135,7 +135,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans",
+							"raw": "{{base_url}}/myLoans",
 							"path": [
 								"myLoans"
 							]
@@ -164,7 +164,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards",
+							"raw": "{{base_url}}/myCards",
 							"path": [
 								"myCards"
 							]
@@ -181,7 +181,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -198,7 +198,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -257,7 +257,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount",
+							"raw": "{{base_url}}/myAccount",
 							"path": [
 								"myAccount"
 							]
@@ -286,7 +286,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance",
+							"raw": "{{base_url}}/myBalance",
 							"path": [
 								"myBalance"
 							]
@@ -315,7 +315,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans",
+							"raw": "{{base_url}}/myLoans",
 							"path": [
 								"myLoans"
 							]
@@ -344,7 +344,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards",
+							"raw": "{{base_url}}/myCards",
 							"path": [
 								"myCards"
 							]
@@ -361,7 +361,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -378,7 +378,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -437,7 +437,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount",
+							"raw": "{{base_url}}/myAccount",
 							"path": [
 								"myAccount"
 							]
@@ -466,7 +466,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance",
+							"raw": "{{base_url}}/myBalance",
 							"path": [
 								"myBalance"
 							]
@@ -495,7 +495,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans",
+							"raw": "{{base_url}}/myLoans",
 							"path": [
 								"myLoans"
 							]
@@ -524,7 +524,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards",
+							"raw": "{{base_url}}/myCards",
 							"path": [
 								"myCards"
 							]
@@ -541,7 +541,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -558,7 +558,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -584,7 +584,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -643,7 +643,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount",
+							"raw": "{{base_url}}/myAccount",
 							"path": [
 								"myAccount"
 							]
@@ -672,7 +672,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance",
+							"raw": "{{base_url}}/myBalance",
 							"path": [
 								"myBalance"
 							]
@@ -701,7 +701,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans",
+							"raw": "{{base_url}}/myLoans",
 							"path": [
 								"myLoans"
 							]
@@ -730,7 +730,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards",
+							"raw": "{{base_url}}/myCards",
 							"path": [
 								"myCards"
 							]
@@ -747,7 +747,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -764,7 +764,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -790,7 +790,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -849,7 +849,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount",
+							"raw": "{{base_url}}/myAccount",
 							"path": [
 								"myAccount"
 							]
@@ -878,7 +878,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance",
+							"raw": "{{base_url}}/myBalance",
 							"path": [
 								"myBalance"
 							]
@@ -907,7 +907,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans",
+							"raw": "{{base_url}}/myLoans",
 							"path": [
 								"myLoans"
 							]
@@ -936,7 +936,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards",
+							"raw": "{{base_url}}/myCards",
 							"path": [
 								"myCards"
 							]
@@ -953,7 +953,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -970,7 +970,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -996,7 +996,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -1055,7 +1055,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount",
+							"raw": "{{base_url}}/myAccount",
 							"path": [
 								"myAccount"
 							]
@@ -1084,7 +1084,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance",
+							"raw": "{{base_url}}/myBalance",
 							"path": [
 								"myBalance"
 							]
@@ -1113,7 +1113,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans",
+							"raw": "{{base_url}}/myLoans",
 							"path": [
 								"myLoans"
 							]
@@ -1142,7 +1142,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards",
+							"raw": "{{base_url}}/myCards",
 							"path": [
 								"myCards"
 							]
@@ -1159,7 +1159,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -1176,7 +1176,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -1202,7 +1202,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -1261,7 +1261,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount?id=1",
+							"raw": "{{base_url}}/myAccount?id=1",
 							"path": [
 								"myAccount"
 							],
@@ -1296,7 +1296,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance?id=1",
+							"raw": "{{base_url}}/myBalance?id=1",
 							"path": [
 								"myBalance"
 							],
@@ -1331,7 +1331,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans?id=1",
+							"raw": "{{base_url}}/myLoans?id=1",
 							"path": [
 								"myLoans"
 							],
@@ -1366,7 +1366,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards?id=1",
+							"raw": "{{base_url}}/myCards?id=1",
 							"path": [
 								"myCards"
 							],
@@ -1389,7 +1389,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -1420,7 +1420,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -1446,7 +1446,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -1475,7 +1475,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/user",
+							"raw": "{{base_url}}/user",
 							"path": [
 								"user"
 							]
@@ -1534,7 +1534,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount?id=1",
+							"raw": "{{base_url}}/myAccount?id=1",
 							"path": [
 								"myAccount"
 							],
@@ -1569,7 +1569,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance?id=1",
+							"raw": "{{base_url}}/myBalance?id=1",
 							"path": [
 								"myBalance"
 							],
@@ -1604,7 +1604,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans?id=1",
+							"raw": "{{base_url}}/myLoans?id=1",
 							"path": [
 								"myLoans"
 							],
@@ -1639,7 +1639,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards?id=1",
+							"raw": "{{base_url}}/myCards?id=1",
 							"path": [
 								"myCards"
 							],
@@ -1662,7 +1662,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -1705,7 +1705,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -1731,7 +1731,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -1760,7 +1760,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/user",
+							"raw": "{{base_url}}/user",
 							"path": [
 								"user"
 							]
@@ -1819,7 +1819,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myAccount?id=1",
+							"raw": "{{base_url}}/myAccount?id=1",
 							"path": [
 								"myAccount"
 							],
@@ -1854,7 +1854,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myBalance?id=1",
+							"raw": "{{base_url}}/myBalance?id=1",
 							"path": [
 								"myBalance"
 							],
@@ -1889,7 +1889,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myLoans?id=1",
+							"raw": "{{base_url}}/myLoans?id=1",
 							"path": [
 								"myLoans"
 							],
@@ -1924,7 +1924,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/myCards?id=1",
+							"raw": "{{base_url}}/myCards?id=1",
 							"path": [
 								"myCards"
 							],
@@ -1947,7 +1947,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -1990,7 +1990,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -2016,7 +2016,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -2045,7 +2045,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/user",
+							"raw": "{{base_url}}/user",
 							"path": [
 								"user"
 							]
@@ -2098,7 +2098,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myAccount?id=1",
+							"raw": "{{base_url}}/myAccount?id=1",
 							"path": [
 								"myAccount"
 							],
@@ -2127,7 +2127,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myBalance?id=1",
+							"raw": "{{base_url}}/myBalance?id=1",
 							"path": [
 								"myBalance"
 							],
@@ -2156,7 +2156,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myLoans?id=1",
+							"raw": "{{base_url}}/myLoans?id=1",
 							"path": [
 								"myLoans"
 							],
@@ -2185,7 +2185,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myCards?id=1",
+							"raw": "{{base_url}}/myCards?id=1",
 							"path": [
 								"myCards"
 							],
@@ -2208,7 +2208,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -2251,7 +2251,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -2277,7 +2277,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -2306,7 +2306,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/user",
+							"raw": "{{base_url}}/user",
 							"path": [
 								"user"
 							]
@@ -2332,7 +2332,7 @@
 							}
 						},
 						"url": {
-							"raw": "/apiLogin",
+							"raw": "{{base_url}}/apiLogin",
 							"path": [
 								"apiLogin"
 							]
@@ -2385,7 +2385,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myAccount?id=1",
+							"raw": "{{base_url}}/myAccount?id=1",
 							"path": [
 								"myAccount"
 							],
@@ -2414,7 +2414,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myBalance?id=1",
+							"raw": "{{base_url}}/myBalance?id=1",
 							"path": [
 								"myBalance"
 							],
@@ -2443,7 +2443,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myLoans?id=1",
+							"raw": "{{base_url}}/myLoans?id=1",
 							"path": [
 								"myLoans"
 							],
@@ -2472,7 +2472,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myCards?id=1",
+							"raw": "{{base_url}}/myCards?id=1",
 							"path": [
 								"myCards"
 							],
@@ -2495,7 +2495,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -2526,7 +2526,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -2552,7 +2552,7 @@
 							}
 						},
 						"url": {
-							"raw": "/register",
+							"raw": "{{base_url}}/register",
 							"path": [
 								"register"
 							]
@@ -2581,7 +2581,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/user",
+							"raw": "{{base_url}}/user",
 							"path": [
 								"user"
 							]
@@ -2607,7 +2607,7 @@
 							}
 						},
 						"url": {
-							"raw": "/apiLogin",
+							"raw": "{{base_url}}/apiLogin",
 							"path": [
 								"apiLogin"
 							]
@@ -2717,7 +2717,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myAccount?email=happy@example.com",
+							"raw": "{{base_url}}/myAccount?email=happy@example.com",
 							"path": [
 								"myAccount"
 							],
@@ -2803,7 +2803,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myBalance?email=happy@example.com",
+							"raw": "{{base_url}}/myBalance?email=happy@example.com",
 							"path": [
 								"myBalance"
 							],
@@ -2889,7 +2889,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myLoans?email=happy@example.com",
+							"raw": "{{base_url}}/myLoans?email=happy@example.com",
 							"path": [
 								"myLoans"
 							],
@@ -2980,7 +2980,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myCards?email=happy@example.com",
+							"raw": "{{base_url}}/myCards?email=happy@example.com",
 							"path": [
 								"myCards"
 							],
@@ -3003,7 +3003,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -3034,7 +3034,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -3144,7 +3144,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myAccount?email=happy@example.com",
+							"raw": "{{base_url}}/myAccount?email=happy@example.com",
 							"path": [
 								"myAccount"
 							],
@@ -3230,7 +3230,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myBalance?email=happy@example.com",
+							"raw": "{{base_url}}/myBalance?email=happy@example.com",
 							"path": [
 								"myBalance"
 							],
@@ -3316,7 +3316,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myLoans?email=happy@example.com",
+							"raw": "{{base_url}}/myLoans?email=happy@example.com",
 							"path": [
 								"myLoans"
 							],
@@ -3407,7 +3407,7 @@
 							}
 						],
 						"url": {
-							"raw": "/myCards?email=happy@example.com",
+							"raw": "{{base_url}}/myCards?email=happy@example.com",
 							"path": [
 								"myCards"
 							],
@@ -3430,7 +3430,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "/notices",
+							"raw": "{{base_url}}/notices",
 							"path": [
 								"notices"
 							]
@@ -3461,7 +3461,7 @@
 							}
 						},
 						"url": {
-							"raw": "/contact",
+							"raw": "{{base_url}}/contact",
 							"path": [
 								"contact"
 							]
@@ -3504,9 +3504,7 @@
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
-					"pm.request.url.protocol=\"http\";",
-					"pm.request.url.host=\"localhost\";",
-					"pm.request.url.port=\"8080\";"
+					""
 				]
 			}
 		},

@@ -1,7 +1,6 @@
 package com.eazybytes.controller;
 
 import com.eazybytes.model.AccountTransactions;
-import com.eazybytes.model.Accounts;
 import com.eazybytes.model.Customer;
 import com.eazybytes.repository.AccountTransactionsRepository;
 import com.eazybytes.repository.CustomerRepository;
